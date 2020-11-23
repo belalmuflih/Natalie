@@ -31,7 +31,7 @@ except FileExistsError:
 	exit()
 
 for i in range(-1, 4):
-	urllib.request.urlretrieve(images[i],f"{title}/{title[i]}.jpg")
+	urllib.request.urlretrieve(images[i],f"C:/Users/Natalie/Desktop/real estate/apartments/available/{title}/{title[i]}.jpg")
 
 images = []
 
@@ -40,5 +40,5 @@ main_img = driver.find_element_by_class_name('img-main-box').get_attribute("styl
 main_img = main_img[23:113]
 images.append(main_img)
 
-urllib.request.urlretrieve(main_img, f"{\Users\Natalie\Desktop\real estate\apartments\available}/{title}/{title} main pic.jpg")
+urllib.request.urlretrieve(main_img, {title}/{title} main pic.jpg")
 driver.close()
