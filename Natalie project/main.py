@@ -40,4 +40,5 @@ main_img = driver.find_element_by_class_name('img-main-box').get_attribute("styl
 main_img = main_img[23:113]
 images.append(main_img)
 
-urllib.request.urlretrieve(main_img, f"{title}/{title} main pic.jpg")
+urllib.request.urlretrieve(main_img, f"{\Users\Natalie\Desktop\real estate\apartments\available}/{title}/{title} main pic.jpg")
+driver.close()
