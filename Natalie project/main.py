@@ -13,7 +13,7 @@ import shutil
 
 
 class Download:
-	driver = webdriver.Chrome(r"C:\Users\belal\Google driver\chromedriver")
+	driver = webdriver.Chrome(".\chromedriver")
 	images = []	
 
 	def __init__(self, link):
