@@ -71,6 +71,6 @@ class Download:
 
 
 
-download = Download('https://brooklyngroup.com/apartment/A8991f')
+download = Download(input("please enter the URL: "))
 download.link_download()
 download.idk()
